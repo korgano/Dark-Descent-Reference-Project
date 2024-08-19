@@ -1,0 +1,18 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.1",
+	"FriendlyName": "Perf Telemetry",
+	"Description": "Performance Telemetry plugin",
+	"Category": "Performance",
+	"CreatedBy": "Bastien Schatt",
+	"CreatedByURL": "https://github.com/bschatt/ue4-perf-telemetry-plugin",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EnabledByDefault": false,
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false
+}

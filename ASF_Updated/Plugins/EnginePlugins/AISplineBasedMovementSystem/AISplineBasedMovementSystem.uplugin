@@ -1,0 +1,25 @@
+{
+	"FileVersion": 3,
+	"Version": 3,
+	"VersionName": "1.1.2",
+	"FriendlyName": "AI Spline-Based Movement System",
+	"Description": "Makes AI moving on navmeshes a lot more smooth and natural without forcing any rotation/movement limitations to your Character (or Pawn) and with no any compromises on performance side!",
+	"Category": "Code Plugin",
+	"CreatedBy": "Dionisy Vergasov",
+	"CreatedByURL": "https://www.linkedin.com/in/vemaster/",
+	"DocsURL": "https://drive.google.com/file/d/15eZ8C8iczoTbGbQ27NuuMIvQ8fWJ6JTp/view?usp=sharing",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/fab736165c464f52898941670eccb270",
+	"SupportURL": "antisocial4tr@gmail.com",
+	"EngineVersion": "4.26",
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "AISplineBasedMovementSystem",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}

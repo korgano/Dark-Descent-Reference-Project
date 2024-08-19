@@ -1,0 +1,17 @@
+#pragma once
+#include "CoreMinimal.h"
+#include "Scientist.generated.h"
+
+USTRUCT(BlueprintType)
+struct FScientist {
+    GENERATED_BODY()
+public:
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    FString Name;
+    
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    FName CurrentProjectName;
+    
+    ASF_API FScientist();
+};
+

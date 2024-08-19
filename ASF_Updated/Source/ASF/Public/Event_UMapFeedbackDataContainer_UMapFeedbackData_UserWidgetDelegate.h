@@ -1,0 +1,9 @@
+#pragma once
+#include "CoreMinimal.h"
+#include "Event_UMapFeedbackDataContainer_UMapFeedbackData_UserWidgetDelegate.generated.h"
+
+class UMapFeedbackDataContainer;
+class UMapFeedbackData_UserWidget;
+
+UDELEGATE(BlueprintCallable) DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FEvent_UMapFeedbackDataContainer_UMapFeedbackData_UserWidget, UMapFeedbackDataContainer*, MapFeedbackDataContainer, UMapFeedbackData_UserWidget*, MapFeedbackData_UserWidget);
+

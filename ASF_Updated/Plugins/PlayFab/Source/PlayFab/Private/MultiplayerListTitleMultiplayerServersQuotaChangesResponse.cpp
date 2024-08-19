@@ -1,0 +1,5 @@
+#include "MultiplayerListTitleMultiplayerServersQuotaChangesResponse.h"
+
+FMultiplayerListTitleMultiplayerServersQuotaChangesResponse::FMultiplayerListTitleMultiplayerServersQuotaChangesResponse() {
+}
+

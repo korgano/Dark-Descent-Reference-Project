@@ -1,0 +1,9 @@
+#pragma once
+#include "CoreMinimal.h"
+#include "Event_UAIPointOfInterestContainer_UAIPointOfInterestConfigDelegate.generated.h"
+
+class UAIPointOfInterestConfig;
+class UAIPointOfInterestContainer;
+
+UDELEGATE(BlueprintCallable) DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FEvent_UAIPointOfInterestContainer_UAIPointOfInterestConfig, UAIPointOfInterestContainer*, _AIPointOfInterestContainer, UAIPointOfInterestConfig*, _PointOfInterestConfig);
+

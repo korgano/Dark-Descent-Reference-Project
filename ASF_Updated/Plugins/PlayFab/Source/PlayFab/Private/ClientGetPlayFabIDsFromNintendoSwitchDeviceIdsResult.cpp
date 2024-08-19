@@ -1,0 +1,5 @@
+#include "ClientGetPlayFabIDsFromNintendoSwitchDeviceIdsResult.h"
+
+FClientGetPlayFabIDsFromNintendoSwitchDeviceIdsResult::FClientGetPlayFabIDsFromNintendoSwitchDeviceIdsResult() {
+}
+

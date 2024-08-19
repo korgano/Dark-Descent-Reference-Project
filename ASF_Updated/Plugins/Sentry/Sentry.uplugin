@@ -1,0 +1,18 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Sentry",
+	"Description": "Improved sentry crash reporting",
+	"Category": "Debugging",
+	"CreatedBy": "Bastien Schatt",
+	"CreatedByURL": "https://github.com/bschatt/",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EnabledByDefault": false,
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false
+}
