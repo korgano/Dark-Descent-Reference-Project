@@ -1,0 +1,81 @@
+{
+    "gui": [
+        {
+            "label": "Minimal Sample",
+            "window_name": "Unreal IO Store Command",
+            "command": "%UE4editor% %uProject% -run=IoStore -CreateGlobalContainer=%GlobalContainer% -CookedDirectory=%CookedDir% -Commands=%Commands% -CookerOrder=%CookerOrder% -TargetPlatform=WindowsNoEditor -stdout -UTF8Output",
+            "button": "Pack uAssets",
+            "components": [
+                {
+                    "type": "file",
+                    "label": "UE4 Editor path",
+                    "extension": "EXE files (*.exe)|*.exe",
+                    "placeholder": "D:\\EGS\\UE_4.27\\Engine\\Binaries\\Win64\\UE4Editor-Cmd.exe",
+                    "id": "UE4editor",
+                    "validator": {
+                                    "exist": true,
+                                    "not_empty": true,
+                                    "wildcard": "*.exe"
+                                }
+                },
+                {
+                    "type": "file",
+                    "label": "Aliens: Dark Descent project path",
+                    "extension": "uProject files (*.uproject)|*.uproject",
+                    "placeholder": "D:\\EGS\\Projects\\ASF_Updated\\ASF.uproject",
+                    "id": "uProject",
+                    "validator": {
+                        "exist": true,
+                        "not_empty": true,
+                        "wildcard": "*.uproject"
+                    }
+                },
+                {
+                    "type": "file",
+                    "label": "Global.Utoc Path",
+                    "extension": "uTOC files (*.utoc)|*.utoc",
+                    "placeholder": "D:\\EGS\\Projects\\ASF_Updated\\Saved\\StagedBuilds\\WindowsNoEditor\\ASF\\Content\\Paks\\global.utoc",
+                    "id": "GlobalContainer",
+                    "validator": {
+                        "exist": true,
+                        "not_empty": true,
+                        "wildcard": "*.utoc"
+                    }
+                },
+                {
+                    "type": "folder",
+                    "label": "Path to uAssets",
+                    "placeholder": "D:\\EGS\\Projects\\ASF_Updated\\Saved\\Cooked\\WindowsNoEditor",
+                    "add_quotes": false,
+                    "id": "CookedDir"
+                },
+                {
+                    "type": "file",
+                    "label": "Commands text file",
+                    "extension": "Text files (*.txt)|*.txt",
+                    "placeholder": "D:\\EGS\\Projects\\ASF_Updated\\ASF_Upgrades.txt",
+                    "add_quotes": true,
+                    "id": "Commands",
+                    "validator": {
+                        "exist": true,
+                        "not_empty": true,
+                        "wildcard": "*.txt"
+                    }
+                },
+                {
+                    "type": "file",
+                    "label": "Path to Cooker Order file",
+                    "extension": "Log files (*.log)|*.log",
+                    "placeholder": "D:\\EGS\\Projects\\ASF_Updated\\Build\\WindowsNoEditor\\FileOpenOrder\\CookerOpenOrder.log",
+                    "add_quotes": false,
+                    "id": "CookerOrder",
+                    "validator": {
+                        "exist": true,
+                        "not_empty": true,
+                        "wildcard": "*.log"
+                    }
+                }
+            ]
+        }
+    ]
+}
