@@ -1,0 +1,282 @@
+{
+  "gui": [
+    {
+      "window_name": "IOStore retoc Repack",
+      "label": "IOStore retoc Repack GUI",
+      "command": "powershell -Command \"$content = '\".\\retoc.exe\"\" %containeroverride% to-zen%optionsvar%%enginevervar%%filtervar%%additionalvar% \"\"\"%inputpathvar%\"\"\" \"\"\"%outputpathvar%\"\"\"'; Set-Content -Path '%batchnamevar%Repack.bat' -Value $content; Add-Content -Path '%batchnamevar%Repack.bat' -Value 'pause'; Start-Process '%batchnamevar%Repack.bat'\"",
+      "components": [
+        {
+          "type": "static_text",
+          "label": "Enter the paths to the below items and optional settings for repackaging."
+        },
+        {
+          "type": "check_array",
+          "id": "containeroverride",
+          "label": "Container Override (Optional)",
+          "items": [
+            {
+              "label": "PreInitial",
+              "value": "--override-container-header-version PreInitial"
+            },
+            {
+              "label": "Initial",
+              "value": "--override-container-header-version Initial"
+            },
+            {
+              "label": "LocalizedPackages",
+              "value": "--override-container-header-version LocalizedPackages"
+            },
+            {
+              "label": "OptionalSegmentPackages",
+              "value": "--override-container-header-version OptionalSegmentPackages"
+            },
+            {
+              "label": "NoExportInfo",
+              "value": "--override-container-header-version NoExportInfo"
+            },
+            {
+              "label": "SoftPackageReferences",
+              "value": " --override-container-header-version SoftPackageReferences"
+            }
+          ]
+        },
+        {
+          "type": "folder",
+          "id": "inputpathvar",
+          "label": "Input directory",
+          "placeholder": "C:\\Path\\To\\Input\\GameFiles\\"
+        },
+        {
+          "type": "text",
+          "id": "outputpathvar",
+          "label": "Output .utoc file",
+          "placeholder": "C:\\Path\\To\\Output\\zMyMod_P.utoc"
+        },
+        {
+          "type": "text",
+          "id": "filtervar",
+          "label": "Asset file name filter (optional)",
+          "placeholder": "/End/Content/MyAsset",
+          "prefix": " -f=",
+          "optional": true
+        },
+        {
+          "type": "check_array",
+          "id": "optionsvar",
+          "label": "Options",
+          "items": [
+            {
+              "label": "Verbose logging",
+              "value": " --verbose"
+            },
+            {
+              "label": "Debug logging",
+              "value": " --debug"
+            },
+            {
+              "label": "Disable Parallelization",
+              "value": " --no-parallel"
+            }
+          ]
+        },
+        {
+          "type": "combo",
+          "id": "enginevervar",
+          "label": "Engine version",
+          "items": [
+            {
+              "label": "UE4_26",
+              "value": " --version=UE4_26"
+            },
+            {
+              "label": "UE4_27",
+              "value": " --version=UE4_27"
+            },
+            {
+              "label": "UE5_0",
+              "value": " --version=UE5_0"
+            },
+            {
+              "label": "UE5_1",
+              "value": " --version=UE5_1"
+            },
+            {
+              "label": "UE5_2",
+              "value": " --version=UE5_2"
+            },
+            {
+              "label": "UE5_3",
+              "value": " --version=UE5_3"
+            },
+            {
+              "label": "UE5_4",
+              "value": " --version=UE5_4"
+            },
+            {
+              "label": "UE5_5",
+              "value": " --version=UE5_5"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "additionalvar",
+          "label": "Additional options, e.g., more filters.",
+          "placeholder": "-f=/End/Content/AssetPath",
+          "prefix": " ",
+          "optional": true
+        },
+        {
+          "type": "text",
+          "id": "batchnamevar",
+          "label": "Batch file name",
+          "placeholder": "MyRepackCommand"
+        }
+      ]
+    },
+    {
+      "window_name": "IOStore retoc Unpack",
+      "label": "IOStore retoc Unpack GUI",
+      "command": ".\\retoc.exe %containeroverride% to-legacy%optionsunpackvar%%engineverunpackvar%%filterunpackvar%%additionalunpackvar% \"%gamepathunpackvar%\" \"%outputpathunpackvar%\"",
+      "components": [
+        {
+          "type": "static_text",
+          "label": "Enter the paths to the below items and optional settings for conversion."
+        },
+        {
+          "type": "check_array",
+          "id": "containeroverride",
+          "label": "Container Override (Optional)",
+          "items": [
+            {
+              "label": "PreInitial",
+              "value": "--override-container-header-version PreInitial"
+            },
+            {
+              "label": "Initial",
+              "value": "--override-container-header-version Initial"
+            },
+            {
+              "label": "LocalizedPackages",
+              "value": "--override-container-header-version LocalizedPackages"
+            },
+            {
+              "label": "OptionalSegmentPackages",
+              "value": "--override-container-header-version OptionalSegmentPackages"
+            },
+            {
+              "label": "NoExportInfo",
+              "value": "--override-container-header-version NoExportInfo"
+            },
+            {
+              "label": "SoftPackageReferences",
+              "value": " --override-container-header-version SoftPackageReferences"
+            }
+          ]
+        },
+        {
+          "type": "folder",
+          "id": "gamepathunpackvar",
+          "label": "Input path (.utoc or directory with multiple .utoc files)",
+          "placeholder": "C:\\Path\\To\\Game\\Content\\Paks\\"
+        },
+        {
+          "type": "folder",
+          "id": "outputpathunpackvar",
+          "label": "Output directory",
+          "placeholder": "C:\\Path\\To\\Output\\"
+        },
+        {
+          "type": "text",
+          "id": "filterunpackvar",
+          "label": "Asset file name filter (optional)",
+          "placeholder": "/End/Content/MyAsset",
+          "prefix": " -f=",
+          "optional": true
+        },
+        {
+          "type": "check_array",
+          "id": "optionsunpackvar",
+          "label": "Options",
+          "items": [
+            {
+              "label": "Skip conversion of assets",
+              "value": " --no-assets"
+            },
+            {
+              "label": "Skip conversion of shader libraries",
+              "value": " --no-shaders"
+            },
+            {
+              "label": "Skip compression of shader libraries",
+              "value": " --no-compres-shaders"
+            },
+            {
+              "label": "Verbose logging",
+              "value": " --verbose"
+            },
+            {
+              "label": "Debug logging",
+              "value": " --debug"
+            },
+            {
+              "label": "Disable Parallelization",
+              "value": " --no-parallel"
+            }
+          ]
+        },
+        {
+          "type": "combo",
+          "id": "engineverunpackvar",
+          "label": "Engine version override",
+          "items": [
+            {
+              "label": "None",
+              "value": ""
+            },
+            {
+              "label": "UE4_26",
+              "value": " --version=UE4_26"
+            },
+            {
+              "label": "UE4_27",
+              "value": " --version=UE4_27"
+            },
+            {
+              "label": "UE5_0",
+              "value": " --version=UE5_0"
+            },
+            {
+              "label": "UE5_1",
+              "value": " --version=UE5_1"
+            },
+            {
+              "label": "UE5_2",
+              "value": " --version=UE5_2"
+            },
+            {
+              "label": "UE5_3",
+              "value": " --version=UE5_3"
+            },
+            {
+              "label": "UE5_4",
+              "value": " --version=UE5_4"
+            },
+            {
+              "label": "UE5_5",
+              "value": " --version=UE5_5"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "additionalunpackvar",
+          "label": "Additional options, e.g., more filters.",
+          "placeholder": "-f=/End/Content/AssetPath",
+          "prefix": " ",
+          "optional": true
+        }
+      ]
+    }
+  ]
+}

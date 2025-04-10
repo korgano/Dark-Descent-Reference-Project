@@ -13,4 +13,6 @@ Publically accessible and updateable mod development uProject, VS 2022 config, a
 - r457 - mod loader and mod blueprints
 - Rummys - Aliens weapon sound files
 - AirStrikerAlex - .usmap file required for modding xenomorph and humanoid enemies
+- Narknon for the original Tuw GUI for retoc
+- matyalatte for Tuw
 - korgano - Dummy files and various modded assets
