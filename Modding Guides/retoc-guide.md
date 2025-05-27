@@ -29,4 +29,3 @@ To extract files from the game, do the following:
 - Click browse for `Output directory` and set your output folder.
 - Optional: check the boxes for skipping conversion/compression of shader libraries.
 - Optional: Use a filter like `-f GOP_` to select specific files to extract.
-
