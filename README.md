@@ -6,7 +6,8 @@ Publically accessible and updateable mod development uProject, VS 2022 config, a
 
 ## Documentation
 - [How to edit xenomorph/humanoid enemy classes](Modding Guides\xenomorph-cultist-modding.md)
-- How to use retoc to extract files and pack mods (WIP)
+- [How to use retoc to extract files and pack mods](Modding Guides\retoc-guide.md)
+- [Installing Tools and Unpacking Files](Modding Guides\DD Modding Guide - Installing Tools & Unpacking Files(Basic).md)
 
 ## Credits
 - Tindalos - Aliens: Dark Descent source code and assets
@@ -15,4 +16,5 @@ Publically accessible and updateable mod development uProject, VS 2022 config, a
 - AirStrikerAlex - .usmap file required for modding xenomorph and humanoid enemies
 - Narknon for the original Tuw GUI for retoc
 - matyalatte for Tuw
+- SKYSuperMarks - various tutorials
 - korgano - Dummy files and various modded assets
