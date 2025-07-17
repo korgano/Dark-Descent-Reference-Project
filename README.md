@@ -5,9 +5,10 @@ Aliens: Dark Descent reference uProject with dummy files and R457 source code in
 Publically accessible and updateable mod development uProject, VS 2022 config, and uAssets (including dummy files). I encourage any and all Dark Descent modders to submit dummy assets, mod loader related blueprints, and/or documentation to this repo to make mod development easier.
 
 ## Documentation
-- [How to edit xenomorph/humanoid enemy classes](Modding Guides\xenomorph-cultist-modding.md)
-- [How to use retoc to extract files and pack mods](Modding Guides\retoc-guide.md)
-- [Installing Tools and Unpacking Files](Modding Guides\DD Modding Guide - Installing Tools & Unpacking Files(Basic).md)
+
+- [How to edit xenomorph/humanoid enemy classes](Modding%20Guides/xenomorph-cultist-modding.md)
+- [How to use retoc to extract files and pack mods](Modding%20Guides/retoc-guide.md)
+- [Installing Tools and Unpacking Files](Modding%20Guides/DD%20Modding%20Guide%20-%20Installing%20Tools%20%26%20Unpacking%20Files%28Basic%29.md)
 
 ## Credits
 - Tindalos - Aliens: Dark Descent source code and assets
