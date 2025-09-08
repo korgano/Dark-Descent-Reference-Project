@@ -35,4 +35,4 @@ The process generates `.uEXP`/`.uAsset` files, which can be packaged by retoc, a
 ![Cooked Upgrade asset files at ASF\Content\Blueprint\Data\Upgrades.](/Modding%20Guides/Images/ADD-cooking-007.png)
 
 9. Copy the `.uEXP`/`.uAsset` files to a new/existing mod folder (ex: `D:\AliensDarkDescent\SomeModName\ASF\Content\Blueprint\Data\Upgrades`).
-10. Follow the [retoc guide](/retoc-guide.md) to generate the `.pak`/`.utoc`/`.ucas` files for the mod.
+10. Follow the [retoc guide](/Modding%20Guides/retoc-guide.md) to generate the `.pak`/`.utoc`/`.ucas` files for the mod.
