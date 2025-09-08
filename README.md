@@ -6,11 +6,11 @@ Publically accessible and updateable mod development uProject, VS 2022 config, a
 
 ## Documentation
 
-- [How to edit xenomorph/humanoid enemy classes](./Modding%20Guides/Modding Guides/Modding%20Guides/xenomorph-cultist-modding.md)
-- [How to use retoc to extract files and pack mods](./Modding%20Guides/Modding Guides/Modding%20Guides/retoc-guide.md)
-- [Cooking Project Assets to Pack with Retoc](./Modding%20Guides/Modding Guides/Modding%20Guides/ADD-Cooking.md)
-- [Installing Tools and Unpacking Files](./Modding%20Guides/Modding Guides/Modding%20Guides/DD Modding Guide - Installing Tools & Unpacking Files(Basic).md)
-- [Increasing Starting Marine Count](./Modding%20Guides/Modding Guides/Modding%20Guides/DD Modding Guide - Adding More Starting Marines (Basic).md)
+- [How to edit xenomorph/humanoid enemy classes](./Modding%20Guides/xenomorph-cultist-modding.md)
+- [How to use retoc to extract files and pack mods](./Modding%20Guides/retoc-guide.md)
+- [Cooking Project Assets to Pack with Retoc](./Modding%20Guides/ADD-Cooking.md)
+- [Installing Tools and Unpacking Files](./Modding%20Guides/DD%20Modding%20Guide%20-%20Installing%20Tools%20%26%20Unpacking%20Files(Basic).md)
+- [Increasing Starting Marine Count](./Modding%20Guides/DD%20Modding%20Guide%20-%20Adding%20More%20Starting%20Marines%20(Basic).md)
 
 ## Credits
 - Tindalos - Aliens: Dark Descent source code and assets
