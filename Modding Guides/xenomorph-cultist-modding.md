@@ -55,7 +55,8 @@ ExperienceRewardedOnKill: 0
 
 Enemy stats will be located under `Export Data > Export 1 ([PDA NAME])`. See Below for visual examples of both types of asset:
 
-![Stats page for the Chestburster](/Images/AliensDD-AlienStats.png)
-![Stats page for the Weyland-Yutani Commandos](/Images/AliensDD-HumanoidStats.png)
+![Stats page for the Chestburster](./Images/AliensDD-AlienStats.png)
+
+![Stats page for the Weyland-Yutani Commandos](./Images/AliensDD-HumanoidStats.png)
 
 Some stats require you to expand entries in the left hand menu to access the actual values. 
