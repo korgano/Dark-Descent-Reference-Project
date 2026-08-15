@@ -19,6 +19,15 @@ All images made with [UE Blueprint Graph Viewer](https://github.com/glgen/UEBlue
 ---
 
 ## File Location
+`/Game/Blueprint/TacticalMode/Character/Ally/Sentry/SentryInteraction/BP_InteractiveComponent_Sentry_Pickup`
+
+## Ubergraph
+![BP_InteractiveComponent_Sentry_Enhance ubergraph showing main Blueprint code.](../Images/BP-Sentry/-Game-Blueprint-TacticalMode-Character-Ally-Sentry-SentryInteraction-BP_InteractiveComponent_Sentry_PickUp_Ubergraph.png)
+
+---
+
+
+## File Location
 `/Game/Blueprint/TacticalMode/Character/Ally/Sentry/SentryInteraction/BP_InteractiveComponent_Sentry_Reload`
 
 ## Ubergraph
