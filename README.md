@@ -34,6 +34,7 @@ Publically accessible and updateable mod development uProject, VS 2022 config, a
 - [Skill Interaction: Retribution](./Modding%20Guides/Game-BPs/ADD-Int-Retribution.md)
 - [Skill Interaction: Tactical Analysis](./Modding%20Guides/Game-BPs/ADD-Int-TacticalAnalysis.md)
 - [Regular Spawn Points (inc. Xenomorph)](./Modding%20Guides/Game-BPs/ADD-RegularSpawnPoints.md)
+- [Stasis Points](./Modding%20Guides/Game-BPs/ADD-StasisPoint.md)
 
 
 ## Credits
